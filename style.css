@@ -496,3 +496,330 @@ body {
     font-size: 32px;
   }
 }
+
+
+
+
+@media (max-width: 1200px) {
+
+  body {
+    padding: 20px;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .hero-title-wrapper h1 {
+    font-size: 54px;
+    line-height: 1.05;
+  }
+
+  .explore-badge {
+    right: 0;
+    top: 140px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-top: 80px;
+  }
+
+  .text-card-wrapper {
+    position: static;
+    grid-column: 1 / -1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .subtag56 {
+    font-size: 20px;
+  }
+
+  .flower-inline {
+    font-size: 42px !important;
+  }
+
+  .grid-item-beige,
+  .grid-item-orange1,
+  .grid-item-yellow,
+  .grid-item-purple,
+  .grid-item-teal,
+  .grid-item-blue,
+  .grid-item-green {
+    grid-column: auto;
+    grid-row: auto;
+    top: 0;
+    height: 320px;
+  }
+
+  .grid-item-yellow {
+    height: 500px;
+  }
+
+  .bottom-strip {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .quote-side {
+    max-width: 100%;
+  }
+
+  .blog-content h3 {
+    font-size: 24px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 16px;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .hero-section {
+    padding-top: 30px;
+  }
+
+  .hero-title-wrapper h1 {
+    font-size: 42px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+  }
+
+  .flower-left {
+    left: 0;
+    top: 0;
+  }
+
+  .flower-right {
+    right: 0;
+    top: 0;
+  }
+
+  .deco-element .material-symbols-rounded {
+    font-size: 26px;
+  }
+
+  .explore-badge {
+    display: none;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 50px;
+  }
+
+  .text-card-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .subtag56 {
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .card {
+    border-radius: 22px;
+  }
+
+  .grid-item-beige,
+  .grid-item-orange1,
+  .grid-item-purple,
+  .grid-item-teal,
+  .grid-item-blue,
+  .grid-item-green {
+    height: 240px;
+  }
+
+  .grid-item-yellow {
+    grid-column: span 2;
+    height: 420px;
+  }
+
+  .year-tag {
+    font-size: 12px;
+    padding: 7px 14px;
+  }
+
+  .bottom-strip {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .quote-text {
+    line-height: 1.8;
+  }
+
+  .signature {
+    font-size: 40px;
+  }
+
+  .center-scroll {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .scroll-btn {
+    padding: 14px 20px;
+  }
+
+  .blog-card {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .blog-number {
+    font-size: 52px;
+  }
+
+  .blog-content h3 {
+    font-size: 20px;
+  }
+
+  .blog-arrow {
+    width: 46px;
+    height: 46px;
+  }
+}
+
+
+
+@media (max-width: 520px) {
+
+  .navbar {
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  .nav-icons {
+    gap: 12px;
+  }
+
+  .hero-title-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item-yellow {
+    grid-column: auto;
+  }
+
+  .grid-item-beige,
+  .grid-item-orange1,
+  .grid-item-purple,
+  .grid-item-teal,
+  .grid-item-blue,
+  .grid-item-green,
+  .grid-item-yellow {
+    height: 320px;
+  }
+
+  .text-card-wrapper {
+    margin-bottom: 0;
+  }
+
+  .sub-tag {
+    font-size: 12px;
+  }
+
+  .subtag56 {
+    font-size: 16px;
+  }
+
+  .flower-inline {
+    display: none;
+  }
+
+  .quote-icon {
+    font-size: 34px;
+  }
+
+  .quote-text {
+    font-size: 13px;
+  }
+
+  .signature {
+    font-size: 34px;
+  }
+
+  .center-scroll {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .scroll-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .blog-card {
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .shape {
+    display: none;
+  }
+
+  .blog-number {
+    font-size: 40px;
+  }
+
+  .blog-content {
+    max-width: 100%;
+  }
+
+  .blog-content h3 {
+    font-size: 18px;
+  }
+
+  .blog-arrow {
+    width: 42px;
+    height: 42px;
+  }
+}
